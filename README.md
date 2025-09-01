@@ -35,7 +35,12 @@ Istio is required to deploy into the service mesh
 kubectl apply -f ping-pong/manifests
 ```
 
-2. Deploy the `log-output` app using
+2. Deploy the `greeter` app using
+
+```shell
+kubectl apply -f greeter/manifests
+
+3. Deploy the `log-output` app using
 
 ```shell
 kubectl apply -f ping-pong/volumes # yes its in ping-pong directory... pls don't judge
