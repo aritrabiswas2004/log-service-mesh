@@ -39,6 +39,7 @@ kubectl apply -f ping-pong/manifests
 
 ```shell
 kubectl apply -f greeter/manifests
+```
 
 3. Deploy the `log-output` app using
 
